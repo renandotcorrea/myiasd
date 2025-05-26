@@ -121,7 +121,7 @@
             console.log(item);
             const dayOfMonth = new Date(Date.parse(item.date)).getDate() + 1
             html += `
-              <tr><td class="p-1 fs-6 bg-primary-subtle text-center text-primary-emphasis align-middle">${dayOfMonth} | ${item.weekday}</td> <td class="fs-6">${item.person}</td></tr>
+              <tr><td class="p-1 fs-6 bg-dark text-white text-center align-middle">${dayOfMonth} | ${item.weekday}</td> <td class="fs-6">${item.person}</td></tr>
          `
         })
 
