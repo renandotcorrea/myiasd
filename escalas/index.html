@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-bs-theme="auto">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Renan de Andrade Correa">
+    <title>Home · IASD Central de Centro Novo</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <meta name="theme-color" content="#712cf9">
+</head>
+<body>
+<main>
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-2 d-flex align-items-center justify-content-center">
+                <a href="../index.html" class="text-decoration-none p-2 fs-6 text-black d-flex">
+                    <i class="bi bi-arrow-left fs-5"></i>
+                </a>
+            </div>
+            <div class="col-8 text-center d-flex justify-content-center align-items-center">
+                <h2 class="fs-5">Escalas</h2>
+            </div>
+            <div class="col-2 d-flex justify-content-end align-items-center">
+                <img src="../assets/logo-azul.jpg" class="rounded-circle align-center" alt="Circular Image" style="width: 30px; height: 30px;">
+            </div>
+        </div>
+        <div class="row align-items-center mt-3">
+            <h3 class="fs-4">Maio de 2025</h3>
+            <p class="mt-2 fs-6">Selecione uma escala para visualizar</p>
+        </div>
+        <div class="row align-items-center mt-2">
+            <div class="col d-grid gap-3 col-lg-4 mx-auto">
+                <button onclick="showScale('sonoplastia')" data-bs-toggle="modal" data-bs-target="#escalasModal"
+                        class="btn btn-outline-dark btn-lg fs-6"><i class="bi bi-speaker"></i> Sonoplastia
+                </button>
+                <button onclick="showScale('louvor-especial')" data-bs-toggle="modal" data-bs-target="#escalasModal"
+                        class="btn btn-outline-dark btn-lg fs-6"><i class="bi bi-music-note-beamed"></i> Louvor Especial
+                </button>
+                <button onclick="showScale('louvor-congregacional')" data-bs-toggle="modal"
+                        data-bs-target="#escalasModal" class="btn btn-outline-dark btn-lg fs-6"><i
+                        class="bi bi-music-note-list"></i> Louvor Congregacional
+                </button>
+                <button onclick="showScale('pregacao')" data-bs-toggle="modal" data-bs-target="#escalasModal"
+                        class="btn btn-outline-dark btn-lg fs-6"><i class="bi bi-book-half"></i> Pregação
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="escalasModal" tabindex="-1" aria-labelledby="escalasModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="escalasModalLabel"></h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid text-center">
+                        <div class="row">
+                            <div class="col d-grid gap-2 mx-auto">
+                                <div class="text-start">
+                                    <table class="table caption-top">
+                                        <thead>
+                                        <tr>
+                                            <th class="text-primary-emphasis align-middle" scope="col"></th>
+                                            <th class="text-primary-emphasis" scope="col"></th>
+                                        </tr>
+                                        </thead>
+                                        <tbody id="escalaBody">
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.min.js"
+        integrity="sha384-RuyvpeZCxMJCqVUGFI0Do1mQrods/hhxYlcVfGPOfQtPJh0JCw12tUAZ/Mv10S7D"
+        crossorigin="anonymous"></script>
+<script>
+    let scalesJson;
+
+    function showScale(scale) {
+        const tableBody = document.getElementById("escalaBody");
+        const modalLabel = document.getElementById("escalasModalLabel");
+
+        tableBody.innerHTML = "";
+        tableBody.innerText = "";
+
+        modalLabel.innerText = getScaleName(scale);
+        tableBody.innerHTML = getScaleHTML(scale);
+    }
+
+    function getScaleName(scale) {
+        const selectedScale = scalesJson[scale];
+        return selectedScale.name;
+    }
+
+    function getScaleHTML(scale) {
+        let html = "";
+        const selectedScale = scalesJson[scale];
+
+        selectedScale.data.forEach((item) => {
+            console.log(item);
+            const dayOfMonth = new Date(Date.parse(item.date)).getDate() + 1
+            html += `
+              <tr><td class="p-1 fs-6 bg-primary-subtle text-center text-primary-emphasis align-middle">${dayOfMonth} | ${item.weekday}</td> <td class="fs-6">${item.person}</td></tr>
+         `
+        })
+
+        return html
+    }
+
+    window.addEventListener("load", function () {
+        fetch("./escalas.json")
+            .then(response => response.json())
+            .then(data => {
+                scalesJson = data;
+                console.log(scalesJson);
+            });
+    })
+</script>
+</body>
+</html>

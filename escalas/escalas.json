@@ -1,0 +1,42 @@
+{
+  "sonoplastia": {
+    "name": "Sonoplastia",
+    "data": [
+      {
+        "person": "Elielson",
+        "date": "2025-05-25",
+        "weekday": "Dom"
+      }
+    ]
+  },
+  "louvor-especial": {
+    "name": "Louvor Especial",
+    "data": [
+      {
+        "person": "Ronilson",
+        "date": "2025-05-25",
+        "weekday": "Dom"
+      }
+    ]
+  },
+  "louvor-congregacional": {
+    "name": "Louvor Congregacional",
+    "data": [
+      {
+        "person": "Eliandro e Luma",
+        "date": "2025-05-25",
+        "weekday": "Dom"
+      }
+    ]
+  },
+  "pregacao": {
+    "name": "Pregação",
+    "data": [
+      {
+        "person": "Vitória",
+        "date": "2025-05-25",
+        "weekday": "Dom"
+      }
+    ]
+  }
+}
