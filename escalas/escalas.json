@@ -283,69 +283,209 @@
     "name": "Limpeza",
     "data": [
       {
-        "person": "Raquel e Família",
-        "date": "2025-05-02",
-        "weekday": "Sex"
-      },
-      {
-        "person": "Vilma e Família",
-        "date": "2025-05-04",
+        "person": "Ronilson e Cleyciara",
+        "date": "2025-06-01T17:15:00-03:00",
         "weekday": "Dom"
       },
       {
-        "person": "Nadson e Samuel",
-        "date": "2025-05-07",
+        "person": "Maria e Família",
+        "date": "2025-06-04T17:00:00-03:00",
         "weekday": "Qua"
       },
       {
-        "person": "Diaconisas",
-        "date": "2025-05-09",
+        "person": "Anciãos",
+        "date": "2025-06-06T17:00:00-03:00",
         "weekday": "Sex"
       },
       {
         "person": "Raquel e Esther",
-        "date": "2025-05-11",
+        "date": "2025-06-08T17:00:00-03:00",
         "weekday": "Dom"
       },
       {
-        "person": "Ministério Adolescente",
-        "date": "2025-05-14",
+        "person": "Dina e Família",
+        "date": "2025-06-11T17:00:00-03:00",
         "weekday": "Qua"
       },
       {
-        "person": "Aventureiros e Desbravadores",
-        "date": "2025-05-16",
+        "person": "Ministério Jovem",
+        "date": "2025-06-13T17:00:00-03:00",
         "weekday": "Sex"
       },
       {
-        "person": "Elizeu e Família",
-        "date": "2025-05-18",
+        "person": "Taty e Família",
+        "date": "2025-06-15T17:00:00-03:00",
         "weekday": "Dom"
       },
       {
-        "person": "Valty e Família",
-        "date": "2025-05-21",
-        "weekday": "Qua"
-      },
-      {
-        "person": "Aldeane, Dina e Neyde",
-        "date": "2025-05-23",
-        "weekday": "Sex"
-      },
-      {
-        "person": "Raquel e Esther",
-        "date": "2025-05-25",
-        "weekday": "Dom"
-      },
-      {
-        "person": "Ray e Família",
-        "date": "2025-05-28",
+        "person": "Raimunda e Família",
+        "date": "2025-06-18T17:00:00-03:00",
         "weekday": "Qua"
       },
       {
         "person": "Diáconos",
-        "date": "2025-05-30",
+        "date": "2025-06-20T17:00:00-03:00",
         "weekday": "Sex"
+      },
+      {
+        "person": "Auricleia e Cleonilda",
+        "date": "2025-06-22T17:00:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Nadson, Samuel e Gustavo",
+        "date": "2025-06-25T17:00:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Diaconisas",
+        "date": "2025-06-27T17:00:00-03:00",
+        "weekday": "Sex"
+      },
+      {
+        "person": "Desbravadores",
+        "date": "2025-06-29T17:00:00-03:00",
+        "weekday": "Dom"
+      }
+    ]
+  },
+  "diaconato": {
+    "name": "Diaconato",
+    "data": [
+      {
+        "person": "Elizeu",
+        "date": "2025-06-01T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "José Pernambuco",
+        "date": "2025-06-04T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Valtercler e Jailson",
+        "date": "2025-06-07T08:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "João de Deus",
+        "date": "2025-06-08T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Eliandro",
+        "date": "2025-06-11T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "João de Deus e Elizeu",
+        "date": "2025-06-14T08:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Elizeu",
+        "date": "2025-06-15T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Valtercler",
+        "date": "2025-06-18T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Eliandro e José Pernambuco",
+        "date": "2025-06-21T08:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "João de Deus",
+        "date": "2025-06-22T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Elizeu",
+        "date": "2025-06-25T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Jailson e Elizeu",
+        "date": "2025-06-28T08:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "João de Deus",
+        "date": "2025-06-29T19:15:00-03:00",
+        "weekday": "Dom"
+      }
+    ]
+  },
+  "recepcao": {
+    "name": "Recepção",
+    "data": [
+      {
+        "person": "Elizeu e Dielma",
+        "date": "2025-06-01T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Adeane e Família",
+        "date": "2025-06-04T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "José e Graça Viana",
+        "date": "2025-06-07T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "João de Deus e Raquel",
+        "date": "2025-06-08T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Dina e Família",
+        "date": "2025-06-11T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Jailson e Auricléia",
+        "date": "2025-06-14T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Ronilson e Cleyciara",
+        "date": "2025-06-15T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Tatiane e Família",
+        "date": "2025-06-18T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Rebeca e Nonata",
+        "date": "2025-06-21T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Eliandro e Luma",
+        "date": "2025-06-22T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Aglaupy e Família",
+        "date": "2025-06-25T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Marinalva e Elizete",
+        "date": "2025-06-28T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Vilma e Família",
+        "date": "2025-06-29T19:15:00-03:00",
+        "weekday": "Dom"
       }
     ]
   }

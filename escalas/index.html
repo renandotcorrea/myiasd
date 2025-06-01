@@ -29,26 +29,32 @@
             </div>
         </div>
         <div class="row align-items-center mt-3">
-            <h3 class="fs-4">Maio de 2025</h3>
+            <h3 class="fs-4">Junho de 2025</h3>
             <p class="mt-2 fs-6">Selecione uma escala para visualizar</p>
         </div>
         <div class="row align-items-center mt-2">
             <div class="col d-grid gap-3 col-lg-4 mx-auto">
-                <button onclick="showScale('sonoplastia')" data-bs-toggle="modal" data-bs-target="#escalasModal"
-                        class="btn btn-outline-dark btn-lg fs-6"><i class="bi bi-speaker"></i> Sonoplastia
-                </button>
-                <button onclick="showScale('louvor-especial')" data-bs-toggle="modal" data-bs-target="#escalasModal"
-                        class="btn btn-outline-dark btn-lg fs-6"><i class="bi bi-music-note-beamed"></i> Louvor Especial
-                </button>
-                <button onclick="showScale('louvor-congregacional')" data-bs-toggle="modal"
-                        data-bs-target="#escalasModal" class="btn btn-outline-dark btn-lg fs-6"><i
-                        class="bi bi-music-note-list"></i> Louvor Congregacional
-                </button>
-                <button onclick="showScale('pregacao')" data-bs-toggle="modal" data-bs-target="#escalasModal"
-                        class="btn btn-outline-dark btn-lg fs-6"><i class="bi bi-book-half"></i> Pregação
-                </button>
+<!--                <button onclick="showScale('sonoplastia')" data-bs-toggle="modal" data-bs-target="#escalasModal"-->
+<!--                        class="btn btn-outline-dark btn-lg fs-6"><i class="bi bi-speaker"></i> Sonoplastia-->
+<!--                </button>-->
+<!--                <button onclick="showScale('louvor-especial')" data-bs-toggle="modal" data-bs-target="#escalasModal"-->
+<!--                        class="btn btn-outline-dark btn-lg fs-6"><i class="bi bi-music-note-beamed"></i> Louvor Especial-->
+<!--                </button>-->
+<!--                <button onclick="showScale('louvor-congregacional')" data-bs-toggle="modal"-->
+<!--                        data-bs-target="#escalasModal" class="btn btn-outline-dark btn-lg fs-6"><i-->
+<!--                        class="bi bi-music-note-list"></i> Louvor Congregacional-->
+<!--                </button>-->
+<!--                <button onclick="showScale('pregacao')" data-bs-toggle="modal" data-bs-target="#escalasModal"-->
+<!--                        class="btn btn-outline-dark btn-lg fs-6"><i class="bi bi-book-half"></i> Pregação-->
+<!--                </button>-->
                 <button onclick="showScale('limpeza')" data-bs-toggle="modal" data-bs-target="#escalasModal"
                         class="btn btn-outline-dark btn-lg fs-6"><i class="bi bi-trash"></i> Limpeza
+                </button>
+                <button onclick="showScale('diaconato')" data-bs-toggle="modal" data-bs-target="#escalasModal"
+                        class="btn btn-outline-dark btn-lg fs-6"><i class="bi bi-person-standing"></i> Diaconato
+                </button>
+                <button onclick="showScale('recepcao')" data-bs-toggle="modal" data-bs-target="#escalasModal"
+                        class="btn btn-outline-dark btn-lg fs-6"><i class="bi bi-door-open-fill"></i> Recepção
                 </button>
             </div>
         </div>
@@ -123,13 +129,17 @@
         const selectedScale = scalesJson[scale];
 
         selectedScale.data.forEach((item) => {
-            const dayOfMonth = new Date(Date.parse(item.date)).getDate() + 1
+            const dayOfMonth = new Date(Date.parse(item.date)).getDate()
             html += `
               <tr><td class="p-1 fs-6 bg-dark text-white text-center align-middle">${dayOfMonth} | ${item.weekday}</td> <td class="fs-6">${item.person}</td></tr>
          `
         })
 
         return html
+    }
+
+    function sortByDate(data){
+
     }
 
     window.addEventListener("load", function () {
