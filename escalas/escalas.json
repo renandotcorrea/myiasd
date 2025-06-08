@@ -3,69 +3,69 @@
     "name": "Sonoplastia",
     "data": [
       {
-        "person": "Elielson",
-        "date": "2025-05-03",
-        "weekday": "Sáb"
-      },
-      {
-        "person": "Renan",
-        "date": "2025-05-04",
-        "weekday": "Dom"
-      },
-      {
         "person": "Eliandro",
-        "date": "2025-05-07",
-        "weekday": "Qua"
-      },
-      {
-        "person": "Renan",
-        "date": "2025-05-10",
-        "weekday": "Sáb"
-      },
-      {
-        "person": "Elielson",
-        "date": "2025-05-11",
-        "weekday": "Dom"
-      },
-      {
-        "person": "Fabricio",
-        "date": "2025-05-14",
+        "date": "2025-06-04T19:15:00-03:00",
         "weekday": "Qua"
       },
       {
         "person": "Elielson",
-        "date": "2025-05-17",
+        "date": "2025-06-07T19:15:00-03:00",
         "weekday": "Sáb"
       },
       {
-        "person": "Eliandro",
-        "date": "2025-05-18",
+        "person": "Renan",
+        "date": "2025-06-08T19:15:00-03:00",
         "weekday": "Dom"
       },
       {
         "person": "Ronilson",
-        "date": "2025-05-21",
+        "date": "2025-06-11T19:15:00-03:00",
         "weekday": "Qua"
       },
       {
-        "person": "Renan",
-        "date": "2025-05-24",
+        "person": "Elielson",
+        "date": "2025-06-14T19:15:00-03:00",
         "weekday": "Sáb"
       },
       {
+        "person": "Fabrício",
+        "date": "2025-06-15T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Renan",
+        "date": "2025-06-18T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
         "person": "Elielson",
-        "date": "2025-05-25",
+        "date": "2025-06-21T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Ronilson",
+        "date": "2025-06-22T19:15:00-03:00",
         "weekday": "Dom"
       },
       {
         "person": "Eliandro",
-        "date": "2025-05-28",
+        "date": "2025-06-25T19:15:00-03:00",
         "weekday": "Qua"
       },
       {
         "person": "Renan",
-        "date": "2025-05-31",
+        "date": "2025-06-28T19:15:00-03:00",
         "weekday": "Sáb"
+      },
+      {
+        "person": "Fabrício",
+        "date": "2025-06-29T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Renan",
+        "date": "2025-07-02T19:15:00-03:00",
+        "weekday": "Qua"
       }
     ]
   },
@@ -73,69 +73,69 @@
     "name": "Louvor Especial",
     "data": [
       {
-        "person": "Eliseu Lima / Paulo Henrique",
-        "date": "2025-05-03",
-        "weekday": "Sáb"
-      },
-      {
-        "person": "Arbson",
-        "date": "2025-05-04",
-        "weekday": "Dom"
-      },
-      {
-        "person": "Jhula",
-        "date": "2025-05-07",
+        "person": "Eliseu Lima",
+        "date": "2025-06-04T19:15:00-03:00",
         "weekday": "Qua"
       },
       {
-        "person": "Bela / Fabricio",
-        "date": "2025-05-10",
+        "person": "Nadson / Raimunda Parga",
+        "date": "2025-06-07T19:15:00-03:00",
         "weekday": "Sáb"
+      },
+      {
+        "person": "Jhulia",
+        "date": "2025-06-08T19:15:00-03:00",
+        "weekday": "Dom"
       },
       {
         "person": "Rebeca",
-        "date": "2025-05-11",
-        "weekday": "Dom"
-      },
-      {
-        "person": "Robson Amador",
-        "date": "2025-05-14",
+        "date": "2025-06-11T19:15:00-03:00",
         "weekday": "Qua"
       },
       {
-        "person": "Aventureiros",
-        "date": "2025-05-17",
+        "person": "Ronilson / Bela",
+        "date": "2025-06-14T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Robson Amador",
+        "date": "2025-06-15T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Gustavo",
+        "date": "2025-06-18T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Fabricio / Nadson",
+        "date": "2025-06-21T19:15:00-03:00",
         "weekday": "Sáb"
       },
       {
         "person": "Aglaupy",
-        "date": "2025-05-18",
+        "date": "2025-06-22T19:15:00-03:00",
         "weekday": "Dom"
       },
       {
-        "person": "Dielma",
-        "date": "2025-05-21",
+        "person": "Elizeu Lima",
+        "date": "2025-06-25T19:15:00-03:00",
         "weekday": "Qua"
       },
       {
-        "person": "Fabricio / Rebeca",
-        "date": "2025-05-24",
+        "person": "Paulo Henrique",
+        "date": "2025-06-28T19:15:00-03:00",
         "weekday": "Sáb"
       },
       {
-        "person": "Raimunda Parga",
-        "date": "2025-05-25",
+        "person": "Rosário",
+        "date": "2025-06-29T19:15:00-03:00",
         "weekday": "Dom"
       },
       {
-        "person": "Isaias River",
-        "date": "2025-05-28",
+        "person": "Arbson",
+        "date": "2025-07-02T19:15:00-03:00",
         "weekday": "Qua"
-      },
-      {
-        "person": "Rosário / Ronilson",
-        "date": "2025-05-31",
-        "weekday": "Sáb"
       }
     ]
   },
@@ -143,69 +143,69 @@
     "name": "Louvor Congregacional",
     "data": [
       {
-        "person": "Nadson e Rebeca",
-        "date": "2025-05-03",
-        "weekday": "Sáb"
+        "person": "Ronilson e Ciara",
+        "date": "2025-06-04T19:15:00-03:00",
+        "weekday": "Qua"
       },
       {
         "person": "Fabricio e Aglaupy",
-        "date": "2025-05-04",
-        "weekday": "Dom"
-      },
-      {
-        "person": "Adolescentes",
-        "date": "2025-05-07",
-        "weekday": "Qua"
+        "date": "2025-06-07T19:15:00-03:00",
+        "weekday": "Sáb"
       },
       {
         "person": "Eliandro e Luma",
-        "date": "2025-05-10",
-        "weekday": "Sáb"
-      },
-      {
-        "person": "Dina e Elizete",
-        "date": "2025-05-11",
+        "date": "2025-06-08T19:15:00-03:00",
         "weekday": "Dom"
       },
       {
-        "person": "Ronilson e Ciara",
-        "date": "2025-05-14",
-        "weekday": "Qua"
-      },
-      {
-        "person": "Aventureiros",
-        "date": "2025-05-17",
-        "weekday": "Sáb"
-      },
-      {
-        "person": "Renan e Raimunda",
-        "date": "2025-05-18",
-        "weekday": "Dom"
-      },
-      {
-        "person": "Taty e Jhenifer",
-        "date": "2025-05-21",
+        "person": "Elizeu e Dielma",
+        "date": "2025-06-11T19:15:00-03:00",
         "weekday": "Qua"
       },
       {
         "person": "Zé Pereira e Rosário",
-        "date": "2025-05-24",
+        "date": "2025-06-14T19:15:00-03:00",
         "weekday": "Sáb"
       },
       {
-        "person": "Eliandro e Luma",
-        "date": "2025-05-25",
+        "person": "Nadson e Rebeca",
+        "date": "2025-06-15T19:15:00-03:00",
         "weekday": "Dom"
       },
       {
-        "person": "Robson e Jhenifer",
-        "date": "2025-05-28",
+        "person": "Elizete",
+        "date": "2025-06-18T19:15:00-03:00",
         "weekday": "Qua"
       },
       {
-        "person": "Eliseu e Dielma",
-        "date": "2025-05-31",
+        "person": "Renan e Raimunda",
+        "date": "2025-06-21T19:15:00-03:00",
         "weekday": "Sáb"
+      },
+      {
+        "person": "Zé Pernambuco e Graça",
+        "date": "2025-06-22T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Aglaupy e Mel",
+        "date": "2025-06-25T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Zé Pereira e Rosário",
+        "date": "2025-06-28T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Robson e Jhenifer",
+        "date": "2025-06-29T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Elizeu e Dielma",
+        "date": "2025-07-02T19:15:00-03:00",
+        "weekday": "Qua"
       }
     ]
   },
@@ -213,69 +213,69 @@
     "name": "Pregação",
     "data": [
       {
-        "person": "Sábado Missionário",
-        "date": "2025-05-03",
-        "weekday": "Sáb"
-      },
-      {
-        "person": "Fabrício",
-        "date": "2025-05-04",
+        "person": "Eliandro",
+        "date": "2025-06-01T19:15:00-03:00",
         "weekday": "Dom"
       },
       {
-        "person": "Quarta Teen",
-        "date": "2025-05-07",
+        "person": "Sales",
+        "date": "2025-06-04T19:15:00-03:00",
         "weekday": "Qua"
       },
       {
-        "person": "Culto de Dia das Mães",
-        "date": "2025-05-10",
+        "person": "Sábado Total (Sáb. da Mulher Missionária)",
+        "date": "2025-06-07T19:15:00-03:00",
         "weekday": "Sáb"
       },
       {
-        "person": "Zé Pereira",
-        "date": "2025-05-11",
+        "person": "Nadson",
+        "date": "2025-06-08T19:15:00-03:00",
         "weekday": "Dom"
+      },
+      {
+        "person": "Quarta Kids",
+        "date": "2025-06-11T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Sábado de Temperança",
+        "date": "2025-06-14T19:15:00-03:00",
+        "weekday": "Sáb"
       },
       {
         "person": "Rosário",
-        "date": "2025-05-14",
-        "weekday": "Qua"
-      },
-      {
-        "person": "Sábado da Criança e Dia Mundial do Aventureiro",
-        "date": "2025-05-17",
-        "weekday": "Sáb"
-      },
-      {
-        "person": "Ronilson",
-        "date": "2025-05-18",
+        "date": "2025-06-15T19:15:00-03:00",
         "weekday": "Dom"
       },
       {
-        "person": "João de Deus",
-        "date": "2025-05-21",
+        "person": "Irmã Nonata",
+        "date": "2025-06-18T19:15:00-03:00",
         "weekday": "Qua"
       },
       {
         "person": "Sábado de Mordomia",
-        "date": "2025-05-24",
+        "date": "2025-06-21T19:15:00-03:00",
         "weekday": "Sáb"
       },
       {
-        "person": "Vitória",
-        "date": "2025-05-25",
+        "person": "Semana de Oração Jovem",
+        "date": "2025-06-22T19:15:00-03:00",
         "weekday": "Dom"
       },
       {
-        "person": "Quarta do Poder (M. da Mulher)",
-        "date": "2025-05-28",
+        "person": "Semana de Oração Jovem",
+        "date": "2025-06-25T19:15:00-03:00",
         "weekday": "Qua"
       },
       {
-        "person": "Sábado da Família",
-        "date": "2025-05-31",
+        "person": "Pastor Agusto",
+        "date": "2025-06-28T19:15:00-03:00",
         "weekday": "Sáb"
+      },
+      {
+        "person": "Keké",
+        "date": "2025-06-29T19:15:00-03:00",
+        "weekday": "Dom"
       }
     ]
   },
