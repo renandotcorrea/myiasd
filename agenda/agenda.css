@@ -1,0 +1,13 @@
+.agenda-logo {
+  width: 30px;
+  height: 30px;
+}
+
+.agenda-credit {
+  font-size: 0.8rem;
+}
+
+.time-col {
+  width: 16%;
+  max-width: 150px;
+}
