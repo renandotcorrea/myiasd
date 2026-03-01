@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8" />
+<title>Escala da Semana</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+<style>
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.card {
+  width: 420px;
+  background: #cfe8f3;
+  padding: 40px 30px;
+  /* border-radius: 20px; */
+  box-sizing: border-box;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.periodo {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+.dia {
+  margin-bottom: 25px;
+}
+
+.dia h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.item {
+  margin-left: 8px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: none;
+  background: #2f5d7c;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+</style>
+</head>
+
+<body>
+
+<div id="escala" class="card">
+  <div class="titulo">ESCALA DA SEMANA</div>
+  <div id="periodo" class="periodo"></div>
+
+  <div id="dom" class="dia">
+    <h3 id="dom-title">DOM</h3>
+  </div>
+
+  <div id="qua" class="dia">
+    <h3 id="qua-title">QUA</h3>
+  </div>
+
+  <div id="sab" class="dia">
+    <h3 id="sab-title">SÁB</h3>
+  </div>
+</div>
+
+<button onclick="baixarImagem()">Baixar como imagem</button>
+
+<script>
+
+let dados = null;
+
+async function carregarJSON() {
+  const response = await fetch("../assets/escalas.json");
+  dados = await response.json();
+  gerarEscala();
+}
+
+function formatarDataBR(data) {
+  return data.toLocaleDateString('pt-BR', {day:'2-digit', month:'2-digit'});
+}
+
+function obterSemanaAtual() {
+  const hoje = new Date();
+  const diaSemana = hoje.getDay();
+
+  const domingo = new Date(hoje);
+  domingo.setDate(hoje.getDate() - diaSemana);
+
+  const sabado = new Date(domingo);
+  sabado.setDate(domingo.getDate() + 6);
+
+  return { domingo, sabado };
+}
+
+function buscarEventoPorData(dataAlvo, categoria) {
+  if (!dados[categoria]) return null;
+
+  const iso = dataAlvo.toISOString().split("T")[0];
+
+  return dados[categoria].data.find(item =>
+    item.date.startsWith(iso)
+  );
+}
+
+function gerarEscala() {
+
+  const { domingo, sabado } = obterSemanaAtual();
+
+  document.getElementById("periodo").innerText =
+    `${formatarDataBR(domingo)} – ${formatarDataBR(sabado)}`;
+
+  const quarta = new Date(domingo);
+  quarta.setDate(domingo.getDate() + 3);
+
+  atualizarDia("dom", domingo, "Dom");
+  atualizarDia("qua", quarta, "Qua");
+  atualizarDia("sab", sabado, "Sáb");
+}
+
+function atualizarDia(id, data, weekday) {
+
+  const container = document.getElementById(id);
+  const titulo = document.getElementById(id + "-title");
+
+  titulo.innerText = `${weekday.toUpperCase()} ${formatarDataBR(data)}`;
+
+  const louvor = buscarEventoPorData(data, "louvor-congregacional");
+  const especial = buscarEventoPorData(data, "louvor-especial");
+  const escola = buscarEventoPorData(data, "escola-sabatina");
+  const adoracao_infantil = buscarEventoPorData(data, "adoracao-infantil");
+
+  if (louvor) adicionarItem(container, "<strong>Louvor congregacional:</strong> " + louvor.person);
+  if (especial) adicionarItem(container, "<strong>Música especial:</strong> " + especial.person);
+
+  if (weekday === "Sáb") {
+    if (escola) adicionarItem(container, "<strong>Escola Sabatina:</strong> " + escola.person);
+    if (adoracao_infantil) adicionarItem(container, "<strong>Adoração Infantil:</strong> " + adoracao_infantil.person);
+  }
+}
+
+function adicionarItem(container, texto) {
+  const div = document.createElement("div");
+  div.className = "item";
+  div.innerHTML = texto;
+  container.appendChild(div);
+}
+
+function baixarImagem() {
+  html2canvas(document.getElementById("escala"), { scale: 2 })
+  .then(canvas => {
+    const link = document.createElement("a");
+    link.download = "escala-da-semana.png";
+    link.href = canvas.toDataURL();
+    link.click();
+  });
+}
+
+carregarJSON();
+
+</script>
+
+</body>
+</html>

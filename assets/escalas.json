@@ -1,0 +1,342 @@
+{
+  "louvor-congregacional": {
+    "name": "Serviço de Cântico",
+    "data": [
+      {
+        "person": "Rosário e José",
+        "date": "2026-03-01T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Samuel e Eloah",
+        "date": "2026-03-08T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Jhulia e Ana Bella",
+        "date": "2026-03-15T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Regivan e Thaís",
+        "date": "2026-03-22T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Fabrício e Aglaupy",
+        "date": "2026-03-29T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "José Pernambuco e Ronilson",
+        "date": "2026-03-04T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Graça e Tatiane",
+        "date": "2026-03-11T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Graciléia e Raimundinha",
+        "date": "2026-03-18T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Robson e Paulinho",
+        "date": "2026-03-25T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Rosário e José",
+        "date": "2026-03-07T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Robson e Graciléia",
+        "date": "2026-03-14T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Elizeu e Dielma",
+        "date": "2026-03-21T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Ronilson e Cleyciara",
+        "date": "2026-03-28T19:15:00-03:00",
+        "weekday": "Sáb"
+      }
+    ]
+  },
+  "louvor-especial": {
+    "name": "Música Especial",
+    "data": [
+      {
+        "person": "Jhulia",
+        "date": "2026-03-01T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Paulinho",
+        "date": "2026-03-08T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Ana Mel",
+        "date": "2026-03-15T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Dielma",
+        "date": "2026-03-22T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Rosário",
+        "date": "2026-03-29T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Gabi",
+        "date": "2026-03-04T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Teron",
+        "date": "2026-03-11T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Melinda",
+        "date": "2026-03-18T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Melissa Manuely",
+        "date": "2026-03-25T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Fabrício e Regivan",
+        "date": "2026-03-07T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Ana Bella e Samuel",
+        "date": "2026-03-14T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Gustavo e Elizeu Lima",
+        "date": "2026-03-21T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Robson e Paulinho",
+        "date": "2026-03-28T19:15:00-03:00",
+        "weekday": "Sáb"
+      }
+    ]
+  },
+  "pregacao": {
+    "name": "Pregação",
+    "data": [
+      {
+        "person": "Renan",
+        "date": "2026-02-01T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Quarta Teen",
+        "date": "2026-02-04T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Sábado Missionário",
+        "date": "2026-02-07T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Regivan",
+        "date": "2026-02-08T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "João de Deus",
+        "date": "2026-02-11T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Retiro",
+        "date": "2026-02-14T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Retiro",
+        "date": "2026-02-15T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Edinete",
+        "date": "2026-02-18T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Pr. Augusto – Adorai",
+        "date": "2026-02-21T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Adorai",
+        "date": "2026-02-22T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Adorai",
+        "date": "2026-02-25T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Encerramento dos 10 dias de oração e 10 horas de jejum",
+        "date": "2026-02-28T19:15:00-03:00",
+        "weekday": "Sáb"
+      }
+    ]
+  },
+  "escola-sabatina": {
+    "name": "Escola Sabatina (1º trimestre 2026)",
+    "data": [
+      {
+        "person": "Tatiane, Cleyciara & Jheniffer",
+        "date": "2026-01-03T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Ronilson Parga, José Pereira & Fabricio",
+        "date": "2026-01-10T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Vitória, Jaílson & Robson",
+        "date": "2026-01-17T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Fabricio & Renan",
+        "date": "2026-01-24T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Márcia & Elizete",
+        "date": "2026-02-07T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Retiro espiritual",
+        "date": "2026-02-14T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Tatiane, Cleyciara & Jheniffer",
+        "date": "2026-02-21T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Graça Viana & Vitória",
+        "date": "2026-02-28T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Aglaupy & Valterlucia",
+        "date": "2026-03-07T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Rosária, José Pereira & Marinalva",
+        "date": "2026-03-14T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Vitória & Jailson",
+        "date": "2026-03-21T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Raquel de Jesus, Dina & Luma",
+        "date": "2026-03-28T19:15:00-03:00",
+        "weekday": "Sáb"
+      }
+    ]
+  },
+  "adoracao-infantil": {
+    "name": "Adoração Infantil (1º trimestre 2026)",
+    "data": [
+      {
+        "person": "Raquel de Jesus | Tema: FOGO (Volta de Jesus)",
+        "date": "2026-01-03T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Ray | Tema: LIVROS (Bíblia)",
+        "date": "2026-01-10T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Dina | Tema: ARCO-ÍRIS (Promessa)",
+        "date": "2026-01-17T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Tati | Tema: PÁSSARO (Cuidado)",
+        "date": "2026-01-24T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Valty | Tema: SEMANA (Tempo)",
+        "date": "2026-01-31T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Fabrício | Tema: LEÃO (Livramento)",
+        "date": "2026-02-07T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Retiro Espiritual | Tema: ÁRVORE (Confissão)",
+        "date": "2026-02-14T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Márcia Valéria | Tema: PERFUME (Arrependimento)",
+        "date": "2026-02-21T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Aglaupy | Tema: TEMPLO (Saúde)",
+        "date": "2026-02-28T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Vitória | Tema: BELEZA (Caráter)",
+        "date": "2026-03-07T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Ronilson | Tema: CORES (Salvação – Preparo para a sequência)",
+        "date": "2026-03-14T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Cleyciara | Tema: 1º BRANCO (Mundo perfeito)",
+        "date": "2026-03-21T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Rosária | Tema: 2º CINZA (Pecado)",
+        "date": "2026-03-28T19:15:00-03:00",
+        "weekday": "Sáb"
+      }
+    ]
+  }
+}
