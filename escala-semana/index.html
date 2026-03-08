@@ -144,9 +144,13 @@ function atualizarDia(id, data, weekday) {
   const especial = buscarEventoPorData(data, "louvor-especial");
   const escola = buscarEventoPorData(data, "escola-sabatina");
   const adoracao_infantil = buscarEventoPorData(data, "adoracao-infantil");
+  const limpeza = buscarEventoPorData(data, "limpeza");
+  const recepcao = buscarEventoPorData(data, "recepcao");
 
   if (louvor) adicionarItem(container, "<strong>Louvor congregacional:</strong> " + louvor.person);
   if (especial) adicionarItem(container, "<strong>Música especial:</strong> " + especial.person);
+  if (limpeza) adicionarItem(container, "<strong>Limpeza:</strong> " + limpeza.person);
+  if (recepcao) adicionarItem(container, "<strong>Recepção:</strong> " + recepcao.person);
 
   if (weekday === "Sáb") {
     if (escola) adicionarItem(container, "<strong>Escola Sabatina:</strong> " + escola.person);

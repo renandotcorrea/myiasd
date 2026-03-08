@@ -1,5 +1,58 @@
 {
   "events": [
-   
+    {
+      "date": "2025-06-22T04:45:00-03:00",
+      "weekday": "Dom",
+      "time": "04:45",
+      "title": "Mexa-se pela vida!"
+    },
+    {
+      "date": "2025-06-22T14:30:00-03:00",
+      "weekday": "Dom",
+      "time": "14:30",
+      "title": "Reunião do Clube de Desbravadores"
+    },
+    {
+      "date": "2025-06-22T19:15:00-03:00",
+      "weekday": "Dom",
+      "time": "19:15",
+      "title": "Culto Evangelístico"
+    },
+    {
+      "date": "2025-06-23T19:15:00-03:00",
+      "weekday": "Seg",
+      "time": "19:15",
+      "title": "Semana de oração jovem"
+    },
+    {
+      "date": "2025-06-24T19:15:00-03:00",
+      "weekday": "Ter",
+      "time": "19:15",
+      "title": "Semana de oração jovem"
+    },
+    {
+      "date": "2025-06-25T19:15:00-03:00",
+      "weekday": "Qua",
+      "time": "19:15",
+      "title": "Semana de oração jovem"
+    },
+    {
+      "date": "2025-06-26T19:15:00-03:00",
+      "weekday": "Qui",
+      "time": "19:15",
+      "title": "Semana de oração jovem"
+    },
+    {
+      "date": "2025-06-27T19:15:00-03:00",
+      "weekday": "Sex",
+      "time": "19:15",
+      "title": "Semana de oração jovem"
+    },
+    {
+      "date": "2025-06-28T08:15:00-03:00",
+      "weekday": "Sáb",
+      "time": "08:15",
+      "title": "Escola Sabatina"
+    }
   ]
 }

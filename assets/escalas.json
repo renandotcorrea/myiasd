@@ -338,5 +338,155 @@
         "weekday": "Sáb"
       }
     ]
+  },
+  "recepcao": {
+    "name": "Recepção (Março 2026)",
+    "data": [
+      {
+        "person": "Eloah, Gustavo, Fabiana, Jhulya",
+        "date": "2026-03-07T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "João Miguel, Jhenyfer",
+        "date": "2026-03-08T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Eduarda, Claudinha",
+        "date": "2026-03-11T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Ana Bella, Samuel, Isabela, Dielma",
+        "date": "2026-03-14T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Eloah, João Miguel",
+        "date": "2026-03-15T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Jhenyfer, Eduarda",
+        "date": "2026-03-16T19:15:00-03:00",
+        "weekday": "Seg"
+      },
+      {
+        "person": "Gustavo, Jhulya",
+        "date": "2026-03-17T19:15:00-03:00",
+        "weekday": "Ter"
+      },
+      {
+        "person": "Claudinha, Dielma",
+        "date": "2026-03-18T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Samuel, Fabiana",
+        "date": "2026-03-19T19:15:00-03:00",
+        "weekday": "Qui"
+      },
+      {
+        "person": "Isabela, Eloah",
+        "date": "2026-03-20T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Dielma, Jhulya, João Miguel",
+        "date": "2026-03-21T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Vitória, Ana Bella",
+        "date": "2026-03-22T19:15:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Claudinha, Fabiana",
+        "date": "2026-03-25T19:15:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Vitória, Gustavo, Eduarda",
+        "date": "2026-03-28T19:15:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Dielma, Samuel",
+        "date": "2026-03-29T19:15:00-03:00",
+        "weekday": "Dom"
+      }
+    ]
+  },
+  "limpeza": {
+    "name": "Limpeza (Março 2026)",
+    "data": [
+      {
+        "person": "Jailson, Robson e Oséias",
+        "date": "2026-03-01T17:00:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Raquel e Esther",
+        "date": "2026-03-04T17:00:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Anciões",
+        "date": "2026-03-07T17:00:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Raquel, João de Deus e Esther",
+        "date": "2026-03-08T17:00:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Ministério Infantil: Classe dos Infantis",
+        "date": "2026-03-11T17:00:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Vilma, Raimunda, Eduarda e Zilma",
+        "date": "2026-03-14T17:00:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Fabiana Isabelle e Eloha",
+        "date": "2026-03-15T17:00:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Raquel, João de Deus e Esther",
+        "date": "2026-03-18T17:00:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Raquel, Dielma, Elizilma e Rosária",
+        "date": "2026-03-21T17:00:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Mutirão de limpeza: todos estão convidados",
+        "date": "2026-03-22T17:00:00-03:00",
+        "weekday": "Dom"
+      },
+      {
+        "person": "Rita, Valty e Eula Paula",
+        "date": "2026-03-25T17:00:00-03:00",
+        "weekday": "Qua"
+      },
+      {
+        "person": "Diáconos: Elizeu, Francisco e José Pernambuco",
+        "date": "2026-03-28T17:00:00-03:00",
+        "weekday": "Sáb"
+      },
+      {
+        "person": "Ozimas, Dina e Neide",
+        "date": "2026-03-29T17:00:00-03:00",
+        "weekday": "Dom"
+      }
+    ]
   }
 }
